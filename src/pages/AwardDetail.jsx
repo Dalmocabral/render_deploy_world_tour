@@ -57,7 +57,7 @@ const AwardDetail = () => {
   const fetchAirports = async () => {
     try {
       const response = await fetch(
-        'https://raw.githubusercontent.com/mwgg/Airports/master/airports.json'
+        'https://raw.githubusercontent.com/Dalmocabral/Airport/refs/heads/master/airports.json'
       );
       const data = await response.json();
       setAirportsData(data);
