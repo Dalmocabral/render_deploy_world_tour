@@ -124,7 +124,7 @@ const AwardDetail = () => {
                 component="img"
                 src={award.link_image}
                 alt={award.name}
-                sx={{ width: '100%', maxHeight: '300px', objectFit: 'cover', mb: 2 }}
+               
               />
             )}
             <Typography paragraph>{award?.description || 'No description available.'}</Typography>
