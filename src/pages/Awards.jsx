@@ -56,12 +56,11 @@ const Awards = () => {
           .map((award) => (
             <Grid item key={award.id} xs={9} sm={6} md={4}>
               <Card>
-                <CardMedia
+              <CardMedia
                   component="img"
                   height="140"
                   image={award.link_image}
                   alt={award.name}
-                  sx={{ height: 200, objectFit: "contain", backgroundColor: "#f0f0f0" }}
                 />
                 <CardContent>
                   <Typography
